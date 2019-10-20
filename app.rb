@@ -12,6 +12,7 @@ class App < Sinatra::Base
   end
   
   get '/say/:number/:phrase' do 
+    params[:number]
     "show me the money"
   end
 end
