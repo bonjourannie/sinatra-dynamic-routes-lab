@@ -12,6 +12,6 @@ class App < Sinatra::Base
   end
   
   get '/say/:number' do 
-    
+    "show me the money"
   end
 end
